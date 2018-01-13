@@ -16,7 +16,14 @@
         "node-red-node-openwhisk":"0.x",
         "node-red-node-cf-cloudant":"0.x",
         "node-red-contrib-scx-ibmiotapp":"0.x",
-        "node-red-nodes-cf-sqldb-dashdb":"0.x"
+        "node-red-nodes-cf-sqldb-dashdb":"0.x",
+        "node-red-contrib-aws": "0.x",
+        "node-red-contrib-credentials": "0.x",
+        "node-red-contrib-crypto-js": "0.x",
+        "node-red-contrib-http-request": "0.x",
+        "node-red-dashboard": "2.x",
+        "node-red-node-dropbox": "1.x",
+        "node-red-node-exif": "0.x"
     },
     "scripts": {
         "start": "node --max-old-space-size=384 index.js --settings ./bluemix-settings.js -v"
