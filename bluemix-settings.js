@@ -50,12 +50,6 @@ var settings = module.exports = {
     // post-deploy are restored after a restage
     autoInstallModules: true,
 
-    // Move the admin UI
-    httpAdminRoot: '/red',
-
-    // Serve up the welcome page
-    httpStatic: path.join(__dirname,"public"),
-
     functionGlobalContext: { },
 
     // Configure the logging output
