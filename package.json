@@ -23,7 +23,7 @@
         "node-red-dashboard": "2.x",
         "node-red-node-dropbox": "1.x",
         "node-red-node-exif": "0.x",
-        "node-red-contrib-tumblr": "0.x",
+        "node-red-contrib-tumblr": ">=0.1.2",
         "node-red-contrib-firebase": "1.x"
     },
     "scripts": {
