@@ -34,7 +34,7 @@ var settings = module.exports = {
     debugMaxLength: 1000,
 
     //Flag for enabling Appmetrics dashboard (https://github.com/RuntimeTools/appmetrics-dash)
-    useAppmetrics: true,
+    useAppmetrics: false,
 
     userDir: userDir,
 
