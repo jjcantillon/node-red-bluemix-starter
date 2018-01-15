@@ -24,7 +24,9 @@
         "node-red-node-dropbox": "1.x",
         "node-red-node-exif": "0.x",
         "node-red-contrib-tumblr": ">=0.1.2",
-        "node-red-contrib-firebase": "1.x"
+        "node-red-contrib-firebase": "1.x",
+        "node-red-contrib-bigtimer": "1.x",
+        "node-red-contrib-chatbot": "0.x"
     },
     "scripts": {
         "start": "node --max-old-space-size=384 index.js --settings ./bluemix-settings.js -v"
