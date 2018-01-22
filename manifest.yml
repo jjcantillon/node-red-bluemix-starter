@@ -4,6 +4,7 @@ applications:
   - node-red-cloudantNoSQLDB
   env:
     NODE_RED_STORAGE_NAME: node-red-cloudantNoSQLDB
+    TZ: Australia/Brisbane
 declared-services:
   node-red-cloudantNoSQLDB:
     label: cloudantNoSQLDB
